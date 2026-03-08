@@ -28,6 +28,15 @@
             <artifactId>commons-codec</artifactId>
             <version>1.21.0</version>
         </dependency>
+
+        <!-- For test caes -->
+        <!-- Source: https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>6.0.1</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
 </project>
