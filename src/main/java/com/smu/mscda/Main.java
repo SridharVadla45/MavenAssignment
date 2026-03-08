@@ -8,8 +8,11 @@ import org.apache.commons.codec.digest.DigestUtils;
 
 import java.util.Scanner;
 
-public class Main {
+public class    Main {
     public static void main(String[] args) {
+
+        System.out.print("This program will capitalize the input string and generate the MD5 hex string \n");
+
         Scanner scanner = new Scanner(System.in);
         StringService service = new StringService();
 
